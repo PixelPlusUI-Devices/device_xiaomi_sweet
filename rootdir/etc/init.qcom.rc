@@ -19,10 +19,6 @@ on property:init.svc.tcpdump=running
 on property:init.svc.vendor.ipacm-diag=running
     stop vendor.ipacm-diag
 
-    # Restrict permissions to socket file 
-    # to hide Magisk & co.
-    chmod 440 /proc/net/unix
-
 # perf tuning
 on property:vendor.post_boot.parsed=1
     # Setup runtime cpusets
