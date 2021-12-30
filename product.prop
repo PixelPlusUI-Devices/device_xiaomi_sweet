@@ -4,3 +4,7 @@ ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
 ro.control_privapp_permissions=log
+
+# PixelPlus-UI Props
+ro.pixelplusui.maintainer=zaidkhan0997
+org.pixelplusui.device=Redmi Note 10 Pro
